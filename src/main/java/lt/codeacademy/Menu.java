@@ -44,7 +44,19 @@ public class Menu {
                             createQuestionChoice = scn.nextInt();
 
                             if(createQuestionChoice == 1){
-                                System.out.println("Klausimas");
+                                System.out.println("Klausimas : ");
+                                String klausimas = scn.next();
+                                System.out.print("Atsakymo variantas A : ");
+                                String answerA = scn.next();
+                                System.out.print("Atsakymo variantas B : ");
+                                String answerB = scn.next();
+                                System.out.print("Atsakymo variantas C : ");
+                                String answerC = scn.next();
+
+                                System.out.println("Kuris teisingas : ");
+                                String kurisTesingas = scn.next();
+
+
                             }
 
                         } while (createQuestionChoice != 2);

@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c1c412-922c-443a-8668-455ce27d8df5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/entities/Atsakymai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/services/KlausimynasService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/db/KlausimynasDatasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/db/KlausimynasDatasource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/entities/Klausimai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/entities/Klausimai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/entities/Klausimynas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/entities/Klausimynas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1aD1wiB8UG42obwpuIjeyBIUtHh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -69,28 +64,49 @@
       <option name="presentableId" value="Default" />
       <updated>1586255590139</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created answers entity.">
+      <created>1586259966172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586259966172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created answers entity." />
+    <MESSAGE value="Push Atsakymai entity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Push Atsakymai entity." />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1586259096669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586259096669" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1586258557309">
+    <state x="614" y="119" key="CommitChangelistDialog2" timestamp="1586260008825">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586258557309" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1586258557309">
+    <state x="614" y="119" key="CommitChangelistDialog2/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586260008825" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1586260178515">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586258557309" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1586258557309">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586260178515" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1586260178515">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586258557309" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1586258557309">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586260178515" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1586260178515">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586258557309" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586260178515" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1586260178515">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586260178515" />
+    <state x="769" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586260021043">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="769" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1586260021043" />
   </component>
 </project>
