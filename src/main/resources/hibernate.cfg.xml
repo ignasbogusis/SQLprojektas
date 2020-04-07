@@ -19,6 +19,8 @@
 
         <mapping class="lt.codeacademy.entities.User"/>
         <mapping class="lt.codeacademy.entities.Klausimynas"/>
+        <mapping class="lt.codeacademy.entities.Klausimai"/>
+        <mapping class="lt.codeacademy.entities.Atsakymai"/>
 
     </session-factory>
 </hibernate-configuration>

@@ -33,6 +33,21 @@ public class Menu {
 
                 switch (onLoginChoice) {
                     case 1 :
+                        System.out.print("Klausimyno pavadinimas : ");
+                        String pavadinimas = scn.next();
+
+                        int createQuestionChoice = 0;
+
+                        do{
+                            System.out.println("[1] Sukurti klausima");
+                            System.out.println("[2] Iseiti");
+                            createQuestionChoice = scn.nextInt();
+
+                            if(createQuestionChoice == 1){
+                                System.out.println("Klausimas");
+                            }
+
+                        } while (createQuestionChoice != 2);
 
                         break;
                     case 2 :

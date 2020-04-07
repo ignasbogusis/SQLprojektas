@@ -22,8 +22,9 @@ public class UserService {
             throw new RuntimeException("Klausimyno pavadinimas turi buti bent 5 simboliu ilgio");
         }
 
+        Klausimynas klausimynas = new Klausimynas("asdasdasdasda");
 
-
+        return klausimynas;
     }
     private void userValidator(String name, String password) {
         if(name.length() < 4){

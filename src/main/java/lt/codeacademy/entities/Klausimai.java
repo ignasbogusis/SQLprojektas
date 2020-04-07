@@ -44,4 +44,6 @@ public class Klausimai {
     public void setKlausimas(String klausimas) {
         this.klausimas = klausimas;
     }
+
+
 }

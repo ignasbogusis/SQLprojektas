@@ -16,9 +16,9 @@ public class Klausimynas {
     @OneToMany(mappedBy = "Klausimynas",cascade = CascadeType.ALL)
     private Klausimai klausimai;
 
-    Klausimynas(){}
+    public Klausimynas(){}
 
-    Klausimynas(String pavadinimas){
+    public Klausimynas(String pavadinimas){
         this.pavadinimas = pavadinimas;
     }
 
@@ -36,6 +36,14 @@ public class Klausimynas {
 
     public void setPavadinimas(String pavadinimas) {
         this.pavadinimas = pavadinimas;
+    }
+
+    public Klausimai getKlausimai() {
+        return klausimai;
+    }
+
+    public void setKlausimai(Klausimai klausimai) {
+        this.klausimai = klausimai;
     }
 }
 

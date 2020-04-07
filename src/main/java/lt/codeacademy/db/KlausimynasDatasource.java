@@ -1,5 +1,6 @@
 package lt.codeacademy.db;
 
+import lt.codeacademy.entities.Klausimai;
 import lt.codeacademy.entities.Klausimynas;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -7,7 +8,7 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 public class KlausimynasDatasource {
-    public Klausimynas insertKlausimynasIntoDatabase(Klausimynas klausimynas){
+    public Klausimynas insertKlausimynasIntoDatabase(Klausimynas insertKlausimynas){
         SessionFactory sessionFactory = new Configuration()
                 .configure()
                 .buildSessionFactory();
@@ -18,7 +19,11 @@ public class KlausimynasDatasource {
         try{
             tx = session.beginTransaction();
 
-            session.save(klausimynas);
+            Klausimynas klausimynas = new Klausimynas();
+            Klausimai klausimai = new Klausimai();
+
+
+
 
             tx.commit();
         } catch (Exception e){
@@ -31,6 +36,6 @@ public class KlausimynasDatasource {
             session.close();
         }
 
-        return klausimynas;
+        return insertKlausimynas;
     }
 }
